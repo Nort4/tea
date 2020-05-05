@@ -5,7 +5,7 @@ import os
 import sys
 
 
-@borg.on(events.NewMessage(pattern=r"\.hui", outgoing=True))
+@borg.on(events.NewMessage(pattern=r"\.tea", outgoing=True))
 async def _(event):
     if event.fwd_from:
         return
